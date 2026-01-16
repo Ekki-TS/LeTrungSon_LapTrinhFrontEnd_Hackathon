@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý thư viện</title>
+    <link rel="stylesheet" href="hackathon.css">
+</head>
+<body>
+
+<header>
+    <h1>📚 THƯ VIỆN SINH VIÊN</h1>
+    <nav>
+        <a href="#trang-chu">Trang chủ</a>
+        <a href="#sach">Sách</a>
+        <a href="#muon-sach">Mượn sách</a>
+        <a href="#lien-he">Liên hệ</a>
+    </nav>
+</header>
+
+<section id="trang-chu" class="banner">
+    <img src="C:\LapTrinhFronEnd\Hackathon\banner.jpg" alt="Banner">
+    <div class="banner-text">
+        <h2>Hệ Thống Quản Lý Thư Viện</h2>
+        <p>📖 Tri thức kết nối phát triển</p>
+    </div>
+</section>
+
+<main class="container">
+
+    <section class="box">
+        <h3>📘 Giới thiệu thư viện</h3>
+        <p>
+            Thư viện sinh viên là nơi lưu trữ và cung cấp các tài liệu học tập,
+            nghiên cứu phục vụ sinh viên và giảng viên trong nhà trường.
+        </p>
+    </section>
+
+    <section id="sach" class="box">
+        <h3>📚 Danh mục sách</h3>
+        <div class="books">
+            <div class="book">
+                <img src="C:\LapTrinhFronEnd\Hackathon\first book.jpg">
+                <p><b>Lập trình Web</b></p>
+                <p>Thể loại: CNTT</p>
+            </div>
+            <div class="book">
+                <img src="C:\LapTrinhFronEnd\Hackathon\second book.jpg">
+                <p><b>Cơ sở dữ liệu</b></p>
+                <p>Thể loại: CNTT</p>
+            </div>
+            <div class="book">
+                <img src="C:\LapTrinhFronEnd\Hackathon\third book.jpg">
+                <p><b>Kỹ năng học tập</b></p>
+                <p>Thể loại: Kỹ năng</p>
+            </div>
+            <div class="book">
+                <img src="C:\LapTrinhFronEnd\Hackathon\forth book.jpg">
+                <p><b>Toán rời rạc</b></p>
+                <p>Thể loại: Toán học</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="box">
+        <h3>📊 Quản lý sách</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mã sách</th>
+                    <th>Tên sách</th>
+                    <th>Tác giả</th>
+                    <th>Tình trạng</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>S001</td>
+                <td>Lập trình Web</td>
+                <td>Nguyễn Văn A</td>
+                <td>Còn</td>
+            </tr>
+            <tr>
+                <td>S002</td>
+                <td>Cơ sở dữ liệu</td>
+                <td>Trần Thị B</td>
+                <td>Hết</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="muon-sach" class="box">
+        <h3>📝 Mượn sách</h3>
+        <input type="text" placeholder="Họ và tên">
+        <input type="text" placeholder="Mã sinh viên">
+        <input type="text" placeholder="Tên sách cần mượn">
+        <button>Gửi yêu cầu</button>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Thư viện Sinh viên
+</footer>
+
+</body>
+</html>
